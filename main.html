@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width = device-width, inital scale = 1.0">
+        <title>Book your next trip</title>
+        <link rel="stylesheet" href = "./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <body>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="carousel-caption text-start" >
+                    <div class = "header-content">
+                        <h1 class="book">Book your next trip</h1>
+                        <h2>An arrangement you make to have a hotel room, tickets, etc. at a particular time in the future</h2>
+                    <div class="line"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item active" >
+              <img src="img/photo2.webp" class="redim" />
+                <div class="container">
+                  <div class="carousel-caption">
+                    <div class = "header-content">
+                        <h1 class="book">Book your next trip</h1>
+                        <h2>An arrangement you make to have a hotel room, tickets, etc. at a particular time in the future</h2>
+                        <div class="line"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        
+        <section class="events">
+            <div class="row">
+                <div class="col">
+                    <p class="paragraph">Leave from</p>
+                    <div class="custom-select">
+                        <select>
+                            <option value="Bucharest">Bucharest</option>
+                            <option value="Paris">Paris</option>
+                            <option value="London">London</option>
+                            <option value="Roma">Roma</option>
+                            <option value="Madrid">Madrid</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <p class="paragraph">To</p>
+                    <div class="custom-select">
+                        <select>
+                            <option value="Hamburg">Hamburg</option>
+                            <option value="Valencia">Valencia</option>
+                            <option value="Zagreb">Zagreb</option>
+                            <option value="Budapesta">Budapesta</option>
+                            <option value="Torino">Torino</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <p class="paragraph">Depart</p>
+                    <input type="datetime-local" id="Test_DatetimeLocal">
+                </div>
+                <div class="col">
+                    <button type="button" class="btn">Search</button>
+                </div>
+            </div>
+            <div class="hotel-cards">
+                <div class="card">
+                  <img
+                    src="img/img1.jpeg"
+                    onmouseover="this.src='images'"
+                    onmouseout="this.src='https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I'"
+                    class="card-img-top"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate urna justo, nec facilisis odio iaculis a. Mauris nec pretium tortor, in gravida risus.
+                    </p>
+                    <button type="button" class="btn-primary"><span>From/Night</span></button>
+                  </div>
+                </div>
+        
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/img2.jpeg"
+                    onmouseover="this.src='images.jfif'"
+                    onmouseout="this.src='https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I'"
+                    class="card-img-top"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate urna justo, nec facilisis odio iaculis a. Mauris nec pretium tortor, in gravida risus.
+                    </p>
+                    <button type="button" class="btn-primary"><span>From/Night</span></button>
+                  </div>
+                </div>
+        
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/img3.jpeg"
+                    onmouseover="this.src='images.jfif'"
+                    onmouseout="this.src='https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I'"
+                    class="card-img-top"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate urna justo, nec facilisis odio iaculis a. Mauris nec pretium tortor, in gravida risus.
+                    </p>
+                    <button type="button" class="btn-primary"><span>From/Night</span></button>
+                  </div>
+                </div>
+        
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/img4.jpeg"
+                    onmouseover="this.src='images.jfif'"
+                    onmouseout="this.src='https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I'"
+                    class="card-img-top"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate urna justo, nec facilisis odio iaculis a. Mauris nec pretium tortor, in gravida risus.
+                    </p>
+                    <button type="button" class="btn-primary"><span>From/Night</span></button>
+                  </div>
+                </div>
+        
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/img5.jpeg"
+                    onmouseover="this.src='images.jfif'"
+                    onmouseout="this.src='https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I'"
+                    class="card-img-top"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate urna justo, nec facilisis odio iaculis a. Mauris nec pretium tortor, in gravida risus.
+                    </p>
+                    <button type="button" class="btn-primary"><span>From/Night</span></button>
+                  </div>
+                </div>
+        
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/img6.jpeg"
+                    onmouseover="this.src='images.jfif'"
+                    onmouseout="this.src='https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I'"
+                    class="card-img-top"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate urna justo, nec facilisis odio iaculis a. Mauris nec pretium tortor, in gravida risus.
+                    </p>
+                    <button type="button" class="btn-primary"><span>From/Night</span></button>
+                  </div>
+                </div>
+              </div>
+                <div class="col">
+                    <nav class="navbar">
+                        <ul class="pagination">
+                          <li class="page-item disabled">
+                            <span class="page-link">Previous</span>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item active">
+                            <span class="page-link">
+                              <span class="sr-only">(current)</span>
+                            </span>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item">
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                          </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="row">
+               
+                <div class = "col">
+                    <p>company</p>
+                </div>
+                <div class = "col">
+                    <p>resources</p>
+                </div>
+                <div class = "col">
+                    <p>help & support</p>
+                </div>
+                <div class = "col">
+                    <p>legal</p>
+                </div>
+            </div>
+            <h3 class="header-db">DB Summer School</h3>
+            <div class="icons">
+                <a href="#" class="fa fa-facebook" style="color:#666362;"></a>
+                <a href="#" class="fa fa-github" style="color:#666362;"></a>
+                <a href="#" class="fa fa-youtube" style="color:#666362;"></a>
+                <a href="#" class="fa fa-twitter" style="color:#666362;"></a>
+            </div>
+            <p class="footer-paragraph">All rights reserved. Copyright 2022 DB Summer School by Catalina Radu</p>
+        </section>
+    </body>
+</html>
